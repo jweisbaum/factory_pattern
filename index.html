@@ -1,0 +1,328 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A tech consultancy with a conscience.">
+<meta name="keywords" content="factory pattern, the factory pattern, software engineers for hire, software engineers, cto, tech consultancy, tech consultants, find a cto, app company, hourly software, agile, scrum, app developers, iPhone developers, Android developers, web developers for hire, app developers for hire, san francisco consultancies, top san francisco app companies">
+<title>Factory Pattern</title>
+
+<!-- Styles -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/styles/jquery.fullPage.min.css"/>
+<link href='https://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/styles/app.css"/>
+
+<!-- scripts -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/scripts/showup.js"></script> 
+     
+<script type="text/javascript" src="/scripts/jquery.fullPage.min.js"></script>
+
+<script type="text/javascript" src="/scripts/app.js"></script>
+<script>
+      var navigation = responsiveNav("#nav", {
+        animate: true,        // Boolean: Use CSS3 transitions, true or false
+        transition: 400,      // Integer: Speed of the transition, in milliseconds
+        label: "",            // String: Label for the navigation toggle
+        insert: "before",     // String: Insert the toggle before or after the navigation
+        customToggle: "",     // Selector: Specify the ID of a custom toggle
+        openPos: "relative",  // String: Position of the opened nav, relative or static
+        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+        init: function(){},   // Function: Init callback
+        open: function(){},   // Function: Open callback
+        close: function(){}   // Function: Close callback
+      });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75641734-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Factory Pattern</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/#section2">About</a></li>
+        <li><a href="/#section3">Capabilities</a></li>
+        <!--
+        <li><a href="/#section4">Benefits</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="/careers">Careers</a></li>
+      -->
+        <li><a href="/#section5">Say Hi</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="sections-fullpage">
+      <div class="section section-landing dark">
+         <div class="video-container">
+          
+        <div class="title-container">
+            <div class="headline">
+                  <h1 class="huge">Be Inspired</h1>
+                  <!--
+                  <h2 class="smallest"> Factory Pattern is an activist creative and software development agency. We work with brands, companies, entrepreneurs, non profits, and government to build and market tech products and hire diverse engineering teams.</h2>
+                -->
+            </div>
+             <div class="text-center prepend-xs-45 append-xs-45">
+          <a href="#section4" class="btn btn-danger">Say Hi</a>
+        </div>
+            
+        </div>
+        <div class="filter">
+            </div>
+        <video autoplay loop class="fillWidth">
+            <source src="/images/background.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+
+          </video>
+
+        <div class="poster hidden">
+            <img src="http://www.videojs.com/img/poster.jpg" alt="">
+        </div>
+      
+    </div>
+        <!--
+  <div class="container text-center">
+     
+  </div>
+-->
+</div>
+
+<div class="section section-about dark">
+  <div class="container text-center">
+    <div class="row append-xs-30 append-md-90">
+      <div class="col-sm-10 col-sm-offset-1 text-left prepend-xs-30 append-xs-30">
+        <h2>Factory Pattern works with companies to build technology products, market them,  and hire diverse engineering teams. From MVP to IPO, we're a full stack creative tech consultancy. Factory Pattern's mission is to help funnel expertise from Silicon Valley to organizations around the country.</h2>
+      </div>
+    </div>
+    <!--
+    <div class="row">
+      <div class="col-sm-3 append-xs-30">
+        <img src="/images/a" width="150" alt="x">
+      </div>
+      <div class="col-sm-3 append-xs-30">
+        <img src="/images/a" width="150" alt="y">
+      </div>
+      <div class="col-sm-3 append-xs-30">
+        <img src="/images/a" width="150" alt="z">
+      </div>
+      <div class="col-sm-3 append-xs-30">
+        <img src="/images/a" width="150" alt="a">
+      </div>
+    </div>
+
+    <div class="row append-xs-60 append-md-90">
+      <div class="col-sm-3 append-xs-30">
+        <img src="/images/a" width="150" alt="a">
+      </div>
+      <div class="col-sm-3 append-xs-30">
+        <img src="/images/a" width="150" alt="a">
+      </div>
+      <div class="col-sm-3 append-xs-30">
+        <img src="/images/a" width="150" alt="a">
+      </div>
+      <div class="col-sm-3 append-xs-30">
+        <img src="/images/a" width="150" alt="a">
+      </div>
+    </div>
+  -->
+   
+  </div>
+</div>
+<div class="section" >
+  <div class="slide section-one dark">
+    <div class="container text-center">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="row">
+          <h1 class="keyline keyline-bottom smaller">CTO for Hire</h1>
+          <h2>We'll build your MVP and hire a diverse team.</h2>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide section-two dark">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <h1 class="keyline keyline-bottom smaller">Design Thinking</h1>
+          <h2>We're much more than rockstar engineers. Let us tackle your design problems.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide section-three dark">
+    <div class="container text-center">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="row">
+          <h1 class="keyline keyline-bottom smaller">Agile</h1>
+          <h2>We can teach you how to run a productive engineering organization.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide section-four dark">
+    <div class="container text-center">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="row">
+          <h1 class="keyline keyline-bottom smaller">We Love Code</h1>
+          <h2>Accessibility, Android, AR, Big Data, Blockchain, Bots, Cloud, iOS, Machine Learning, tvOS, VR, Web </h2>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="slide section-five dark">
+    <div class="container text-center">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="row">
+          <h1 class="keyline keyline-bottom smaller">Marketing</h1>
+          <h2>Events, social, video and web. What good is awesome tech without users?</h2>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+<div class="section section-benefits dark">
+  <div class="container text-center">
+      <div class="row append-xs-30 append-md-90">
+      <div class="col-sm-10 col-sm-offset-1 text-left prepend-xs-30 append-xs-30">
+        <h2> </h2>
+      </div>
+    </div>
+  </div>
+
+</div>
+-->
+
+<div class="section events" data-max-results="1">
+  <div class="slide event dark">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <a href="#">
+            <h2>Factory Pattern isn't just another consultancy. We're a benefit corporation. Our paying clients help us work with entrepreneurs in cities like Detroit and Baltimore. Let's close the skills gap together. </h2>  
+            <a href="#section5" class="btn btn-danger">Say Hi</a>    
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div> 
+
+<div class="section section-footer dark">
+   <h1 class="smaller">There's never been a better time to make something beautiful.</h1>
+   
+    <div class="container">
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="well well-sm">
+      <form id="contact-form" name="contactform" class="form-horizontal" action="send.php" method="post">
+      <fieldset>
+      
+        <div id="success-container" class="text-center" style="display:none;">
+          <p class="lead text-success"><span class="glyphicon glyphicon-ok"></span></p>
+          <p class="lead">Your message has been sent successfully!</p>
+        </div>
+
+        <div id="form-container">
+
+          <!-- Name input-->
+          <div class="form-group">
+            <label class="col-md-3 control-label" for="name">Name</label>
+            <div class="col-md-9">
+              <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+            </div>
+          </div>
+
+          <!-- Email input-->
+          <div class="form-group">
+            <label class="col-md-3 control-label" for="email">Your E-mail</label>
+            <div class="col-md-9">
+              <input id="email" name="email" type="text" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" placeholder="e.g. blah@gmail.com" required class="form-control">
+            </div>
+          </div>
+
+          <!-- Message body -->
+          <div class="form-group">
+            <label class="col-md-3 control-label" for="message">Your message</label>
+            <div class="col-md-9">
+              <textarea class="form-control" id="project" name="project" placeholder="Please enter your message here..." rows="5"></textarea>
+            </div>
+          </div>
+
+          <!-- Form actions -->
+          <div class="form-group">
+            <div class="col-md-12" id="spin-area">
+              <button type="submit" class="btn btn-primary btn-lg prepend-xs-15" id="submit" value="Send">Submit</button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+        <footer class="footer">
+          <!--
+  <div class="container">
+    <div class="row append-xs-30">
+      <div class="col-sm-1">
+       
+      </div>
+      <div class="col-sm-11 keyline keyline-left">
+        <ul class="nav nav-pills">
+          
+        </ul>
+        <form action="https://blah" method="post" target="_blank" class="form-inline append-xs-15">
+          <div class="form-group">
+            <label class="sr-only" for="email">Email</label>
+            <input class="form-control" id="email" name="EMAIL" type="text" value="" required placeholder="Email me rarely"><input type="text" name="blah" tabindex="-1" value="" class="hidden">
+          </div>
+          <button class="btn btn-default btn-sm" type="submit">Subscribe</button>
+        </form>        
+        <div class="social">
+          <a href="https://twitter.com/blah"><i class="fa fa-twitter"></i></a>
+          <a href="https://github.com/blah"><i class="fa fa-github"></i></a>
+          <a href="https://www.facebook.com/blah"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/blah"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</footer>
+
+      </div>
+    </div>
+  </body>
+</html>
