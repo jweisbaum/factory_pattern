@@ -13,7 +13,7 @@ body {
 a, a:hover, a:active, a:focus {
   color: #049aab;
   text-decoration: none;
-  outline: none; 
+  outline: none;
 }
 
 p {
@@ -93,8 +93,8 @@ blockquote {
 
 blockquote:before,
 blockquote:after,
-blockquote footer:before, 
-blockquote small:before, 
+blockquote footer:before,
+blockquote small:before,
 blockquote .small:before {
   content: none;
 }
@@ -181,15 +181,15 @@ iframe[name=google_conversion_frame] {
   box-shadow: none;
 }
 
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
   background-color: transparent;
   color: rgba(255, 255, 255, .5);
 }
 
 .navbar-brand {
-  font-size: 21px;  
+  font-size: 21px;
   padding-top: 15px;
   padding-bottom: 15px;
   line-height: 20px;
@@ -198,7 +198,7 @@ iframe[name=google_conversion_frame] {
 .navbar-brand .icon-c5-logo {
   padding-right: 12px;
   position: relative;
-  font-size: 30px;  
+  font-size: 30px;
   position: relative;
   top: 8px;
 }
@@ -241,7 +241,7 @@ iframe[name=google_conversion_frame] {
 }
 
 .event-cha {
-  background: #e22d50;  
+  background: #e22d50;
 }
 
 a.event-cha:hover {
@@ -249,7 +249,7 @@ a.event-cha:hover {
 }
 
 .event-unk {
-  background: #025A6E;  
+  background: #025A6E;
 }
 
 a.event-unk:hover {
@@ -275,7 +275,7 @@ a.event-unk:hover {
 
 .nav-filters>li.active>a, .nav-filters>li.active>a:hover, .nav-filters>li.active>a:focus {
   color: #049AAB;
-  background: #c2dcdf; 
+  background: #c2dcdf;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
@@ -370,7 +370,7 @@ a.event-unk:hover {
   font-style: normal;
 }
 
-.hero {  
+.hero {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -437,7 +437,7 @@ a.event-unk:hover {
 }
 
 #services {
-  text-align: center;  
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -601,7 +601,7 @@ a.event-unk:hover {
   margin-top: 75px;
 }
 
-.append-xs-90 { 
+.append-xs-90 {
   margin-bottom: 90px;
 }
 
@@ -820,7 +820,7 @@ a.event-unk:hover {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.footer input:-ms-input-placeholder {  
+.footer input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -838,7 +838,7 @@ a.event-unk:hover {
 
 .footer .social {
   font-size: 24px;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 .footer .social a {
@@ -853,7 +853,7 @@ a.event-unk:hover {
   transform: translateY(-50%);
 }
 
-/* showup nav styles 
+/* showup nav styles
 .navbar-show {
   opacity: 1;
   -webkit-transform: translate(0, 0);
@@ -880,7 +880,7 @@ a.event-unk:hover {
 .sections-fullpage .section,
 .sections-fullpage .slide {
   background-repeat: no-repeat;
-  background-position: center center;  
+  background-position: center center;
   background-size: cover;
   width: 100%;
 }
@@ -947,10 +947,10 @@ a.event-unk:hover {
   margin: 40px 0 70px 0;
 }
 
-.dark h1, 
-.dark h2, 
-.dark h3, 
-.dark h4, 
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
 .dark p,
 .dark p.lead,
 .dark blockquote,
@@ -985,7 +985,7 @@ a.event-unk:hover {
   -webkit-transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -o-transition: opacity .25s ease-in-out;
-  transition: opacity .25s ease-in-out;  
+  transition: opacity .25s ease-in-out;
 }
 
 .chevron {
@@ -1095,7 +1095,7 @@ a.event-unk:hover {
 
 /* non-small screen overrides */
 @media (min-width: 768px) {
-  .hero {  
+  .hero {
     min-height: 800px;
   }
 
@@ -1106,7 +1106,7 @@ a.event-unk:hover {
 
   .smaller{
     font-size: 70px !important;
-    
+
   }
 
   .huge{
@@ -1163,7 +1163,6 @@ a.event-unk:hover {
 .video-container .filter {
   z-index: 100;
   position: absolute;
-  background: rgba(194, 159, 93, .3);
   width: 100%;
 }
 .video-container .title-container {
@@ -1198,13 +1197,13 @@ a.event-unk:hover {
   bottom: 0;
 }
 .video-container video.fillWidth {
-  width: 100%;
+  width: 150%;
 }
 
 @media (min-width: 992px) {
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 }
 
 /* responsive navbar settings */
@@ -1231,7 +1230,7 @@ a.event-unk:hover {
     float: none;
   }
 
-  .navbar-collapse.collapse.in { 
+  .navbar-collapse.collapse.in {
     display: block!important;
   }
 
